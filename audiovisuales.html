@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/icon1.
+png" type="image/x-icon">
+    <title>AUDIOVISUALES</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        video {
+            width: 98%;
+            border: 2px solid black;
+            margin: 10px 40px;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>AUDIOVISUALES</h1>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="preferencias.html">Preferencias</a></li>
+                <li> <a class="active" href="audiovisuales.html">Audiovisuales</a></li>
+                <li> <a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>MI PRIMER PROYECTO UTN AUDIOVISUALES</h2>
+    <hr>
+    <div class="centrado">
+        <video src="./assets/videos/135658 (1080p).mp4" autoplay></video>
+    </div>
+    <div class="centrado">
+        <audio src="./assets/audios/bumblebee-is-a-brave-soldier-this-is-what-he-would-want.mp3" autoplay
+            controls></audio>
+    </div>
+
+    <section class="centrado">
+        <div class="gallery">
+            <a href="./assets/img/polynesia-3021072_1280.jpg" target="_parent"><img
+                    src="./assets/img/polynesia-3021072_1280.jpg" alt="imagen" width="600"></a>
+            <div class="desc">imagen1</div>
+        </div>
+        <div class="gallery">
+            <a href="./assets/img/drink-84533_1280.jpg" target="_blank"><img src="./assets/img/drink-84533_1280.jpg"
+                    alt="" width="600"></a>
+            <div class="desc">imagen2</div>
+        </div>
+        <div class="gallery">
+            <a href="./assets/img/feather-3010848_960_720.jpg" target="_top">
+                <img src="./assets/img/feather-3010848_960_720.jpg" alt="" width="600"></a>
+            <div class="desc">imagen3<div>
+                </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023<br>
+            FERNANDEZ DARIO</p>
+    </footer>
+
+
+</body>
+
+</html>
